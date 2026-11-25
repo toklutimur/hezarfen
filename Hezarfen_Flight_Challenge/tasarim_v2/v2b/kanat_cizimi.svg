@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1120" viewBox="0 0 1600 1120">
+<style>
+ .bg{fill:#fbf7ee}.kanat{fill:#e9dcc0;stroke:#3a2f22;stroke-width:1.6}.kuyruk{fill:#e3d3b2;stroke:#3a2f22;stroke-width:1.4}
+ .kiris{stroke:#7a4a1e;stroke-width:4;fill:none;stroke-linecap:round}.nervur{stroke:#a9743a;stroke-width:1.5;fill:none}
+ .gergi{stroke:#555;stroke-width:1;stroke-dasharray:6 4;fill:none}.g{stroke:#3a2f22;stroke-width:1.5;fill:none}
+ .ince{stroke:#3a2f22;stroke-width:1}.olcu{stroke:#1d4e89;stroke-width:1}.pilot{fill:#c9c2b8;stroke:#3a2f22;stroke-width:1.4}
+ .eksen{stroke:#999;stroke-width:1;stroke-dasharray:14 4 2 4}
+ text{font-family:Arial,Helvetica,sans-serif;fill:#22201c}.t{font-size:13px}.to{font-size:13px;fill:#1d4e89}
+ .tk{font-size:12px;font-weight:bold}.b{font-size:17px;font-weight:bold}.h{font-size:24px;font-weight:bold}.k{font-size:11.5px;fill:#555}
+ .kutu{fill:#fff;stroke:#3a2f22;stroke-width:1}
+</style>
+<rect class="bg" width="1600" height="1120"/>
+<text x="40.0" y="44.0" class="h" text-anchor="start">Hezarfen Ahmed Çelebi – kanat rekonstrüksiyonu V2B (mühendislik varsayımı)</text>
+<text x="40.0" y="66.0" class="k" text-anchor="start">MODERN KARŞILAŞTIRMA – tarihsel değildir. Aynı irtifadan modern yelkenkanat sınıfı bir aracın menzilini göstermek içindir. Ölçüler metre.</text>
+<text x="40.0" y="104.0" class="b" text-anchor="start">ÜST GÖRÜNÜŞ</text>
+<polygon points="520.0,130.0 611.0,154.5 702.0,182.5 793.0,214.0 870.0,242.0 887.5,252.5 887.5,287.5 870.0,298.0 793.0,294.5 702.0,284.0 611.0,277.0 520.0,270.0" class="kanat"/>
+<line x1="538.4" y1="134.9" x2="538.4" y2="271.4" class="nervur"/>
+<line x1="575.1" y1="144.8" x2="575.1" y2="274.2" class="nervur"/>
+<line x1="611.9" y1="154.8" x2="611.9" y2="277.1" class="nervur"/>
+<line x1="648.6" y1="166.1" x2="648.6" y2="279.9" class="nervur"/>
+<line x1="685.4" y1="177.4" x2="685.4" y2="282.7" class="nervur"/>
+<line x1="722.1" y1="189.5" x2="722.1" y2="286.3" class="nervur"/>
+<line x1="758.9" y1="202.2" x2="758.9" y2="290.6" class="nervur"/>
+<line x1="795.6" y1="215.0" x2="795.6" y2="294.6" class="nervur"/>
+<line x1="832.4" y1="228.3" x2="832.4" y2="296.3" class="nervur"/>
+<line x1="869.1" y1="241.7" x2="869.1" y2="298.0" class="nervur"/>
+<polyline points="520.0,137.0 611.0,160.6 702.0,187.6 793.0,218.0 870.0,244.8 887.5,254.2" class="kiris"/>
+<polyline points="520.0,200.0 611.0,215.8 702.0,233.2 793.0,254.2 870.0,270.0 887.5,270.0" class="kiris"/>
+<polygon points="520.0,130.0 429.0,154.5 338.0,182.5 247.0,214.0 170.0,242.0 152.5,252.5 152.5,287.5 170.0,298.0 247.0,294.5 338.0,284.0 429.0,277.0 520.0,270.0" class="kanat"/>
+<line x1="501.6" y1="134.9" x2="501.6" y2="271.4" class="nervur"/>
+<line x1="464.9" y1="144.8" x2="464.9" y2="274.2" class="nervur"/>
+<line x1="428.1" y1="154.8" x2="428.1" y2="277.1" class="nervur"/>
+<line x1="391.4" y1="166.1" x2="391.4" y2="279.9" class="nervur"/>
+<line x1="354.6" y1="177.4" x2="354.6" y2="282.7" class="nervur"/>
+<line x1="317.9" y1="189.5" x2="317.9" y2="286.3" class="nervur"/>
+<line x1="281.1" y1="202.2" x2="281.1" y2="290.6" class="nervur"/>
+<line x1="244.4" y1="215.0" x2="244.4" y2="294.6" class="nervur"/>
+<line x1="207.6" y1="228.3" x2="207.6" y2="296.3" class="nervur"/>
+<line x1="170.9" y1="241.7" x2="170.9" y2="298.0" class="nervur"/>
+<polyline points="520.0,137.0 429.0,160.6 338.0,187.6 247.0,218.0 170.0,244.8 152.5,254.2" class="kiris"/>
+<polyline points="520.0,200.0 429.0,215.8 338.0,233.2 247.0,254.2 170.0,270.0 152.5,270.0" class="kiris"/>
+<line x1="520.0" y1="158.0" x2="520.0" y2="438.0" class="kiris"/>
+<polygon points="520.0,368.0 450.0,438.0 520.0,427.5 590.0,438.0" class="kuyruk"/>
+<ellipse cx="520.0" cy="189.5" rx="18.9" ry="14.0" class="pilot"/>
+<text x="520.0" y="193.5" class="k" text-anchor="middle">pilot</text>
+<line x1="520.0" y1="100.0" x2="520.0" y2="463.0" class="eksen"/>
+<circle cx="520.0" cy="200.7" r="7" fill="none" stroke="#b00020" stroke-width="2"/>
+<line x1="510.0" y1="200.7" x2="530.0" y2="200.7" class="ince"/>
+<line x1="520.0" y1="190.7" x2="520.0" y2="210.7" class="ince"/>
+<text x="531.0" y="191.7" class="tk" text-anchor="start">AM</text>
+<circle cx="549.4" cy="208.4" r="7" fill="none" stroke="#0b6e4f" stroke-width="2"/>
+<line x1="539.4" y1="208.4" x2="559.4" y2="208.4" class="ince"/>
+<line x1="549.4" y1="198.4" x2="549.4" y2="218.4" class="ince"/>
+<text x="560.4" y="199.4" class="tk" text-anchor="start">NN</text>
+<line x1="152.5" y1="102.0" x2="887.5" y2="102.0" class="olcu"/>
+<line x1="152.5" y1="96.0" x2="152.5" y2="108.0" class="olcu"/>
+<line x1="887.5" y1="96.0" x2="887.5" y2="108.0" class="olcu"/>
+<text x="520.0" y="95.0" class="to" text-anchor="middle">kanat açıklığı b = 10.50</text>
+<line x1="122.5" y1="130.0" x2="122.5" y2="270.0" class="olcu"/>
+<line x1="116.5" y1="130.0" x2="128.5" y2="130.0" class="olcu"/>
+<line x1="116.5" y1="270.0" x2="128.5" y2="270.0" class="olcu"/>
+<text x="114.5" y="200.0" class="to" text-anchor="middle" transform="rotate(-90 114.5 200.0)">kök veteri 2.00</text>
+<line x1="933.5" y1="130.0" x2="933.5" y2="438.0" class="olcu"/>
+<line x1="927.5" y1="130.0" x2="939.5" y2="130.0" class="olcu"/>
+<line x1="927.5" y1="438.0" x2="939.5" y2="438.0" class="olcu"/>
+<text x="925.5" y="284.0" class="to" text-anchor="middle" transform="rotate(-90 925.5 284.0)">boy 4.40</text>
+<line x1="450.0" y1="460.0" x2="590.0" y2="460.0" class="olcu"/>
+<line x1="450.0" y1="454.0" x2="450.0" y2="466.0" class="olcu"/>
+<line x1="590.0" y1="454.0" x2="590.0" y2="466.0" class="olcu"/>
+<text x="520.0" y="477.0" class="to" text-anchor="middle">kuyruk 2.00</text>
+<text x="604.0" y="336.5" class="k" text-anchor="start">sentetik yelken bezi</text>
+<text x="289.0" y="322.5" class="k" text-anchor="start">ana borular (alüminyum alaşım) ×2 / yarım kanat</text>
+<text x="289.0" y="336.5" class="k" text-anchor="start">profil çıtaları ×10 / yarım kanat</text>
+<rect class="kutu" x="1000" y="96" width="560" height="420"/>
+<text x="1014.0" y="122.0" class="b" text-anchor="start">Türetilmiş değerler (aerodinamik.py çıktısı)</text>
+<text x="1014.0" y="150.0" class="t" text-anchor="start">Kanat alanı S</text>
+<text x="1330.0" y="150.0" class="tk" text-anchor="start">14.88 m²</text>
+<text x="1470.0" y="150.0" class="k" text-anchor="start">HESAP</text>
+<text x="1014.0" y="172.0" class="t" text-anchor="start">Açıklık oranı AR = b²/S</text>
+<text x="1330.0" y="172.0" class="tk" text-anchor="start">7.41</text>
+<text x="1470.0" y="172.0" class="k" text-anchor="start">HESAP</text>
+<text x="1014.0" y="194.0" class="t" text-anchor="start">Ortalama aerodinamik veter</text>
+<text x="1330.0" y="194.0" class="tk" text-anchor="start">1.52 m</text>
+<text x="1470.0" y="194.0" class="k" text-anchor="start">HESAP</text>
+<text x="1014.0" y="216.0" class="t" text-anchor="start">Kambur oranı</text>
+<text x="1330.0" y="216.0" class="tk" text-anchor="start">0.05</text>
+<text x="1470.0" y="216.0" class="k" text-anchor="start">VARSAYIM</text>
+<text x="1014.0" y="238.0" class="t" text-anchor="start">Dihedral</text>
+<text x="1330.0" y="238.0" class="tk" text-anchor="start">2°</text>
+<text x="1470.0" y="238.0" class="k" text-anchor="start">VARSAYIM</text>
+<text x="1014.0" y="260.0" class="t" text-anchor="start">Yapı kütlesi</text>
+<text x="1330.0" y="260.0" class="tk" text-anchor="start">32.0 kg</text>
+<text x="1470.0" y="260.0" class="k" text-anchor="start">VARSAYIM</text>
+<text x="1014.0" y="282.0" class="t" text-anchor="start">Pilot kütlesi</text>
+<text x="1330.0" y="282.0" class="tk" text-anchor="start">65 kg</text>
+<text x="1470.0" y="282.0" class="k" text-anchor="start">VARSAYIM</text>
+<text x="1014.0" y="304.0" class="t" text-anchor="start">Uçuş kütlesi</text>
+<text x="1330.0" y="304.0" class="tk" text-anchor="start">97.0 kg</text>
+<text x="1470.0" y="304.0" class="k" text-anchor="start">HESAP</text>
+<text x="1014.0" y="326.0" class="t" text-anchor="start">Kanat yüklemesi W/S</text>
+<text x="1330.0" y="326.0" class="tk" text-anchor="start">63.9 N/m²</text>
+<text x="1470.0" y="326.0" class="k" text-anchor="start">HESAP</text>
+<text x="1014.0" y="348.0" class="t" text-anchor="start">CD0 / Oswald e / CLmax</text>
+<text x="1330.0" y="348.0" class="tk" text-anchor="start">0.035 /0.85 / 1.3</text>
+<text x="1470.0" y="348.0" class="k" text-anchor="start">VARSAYIM</text>
+<text x="1014.0" y="370.0" class="t" text-anchor="start">Süzülme oranı L/D</text>
+<text x="1330.0" y="370.0" class="tk" text-anchor="start">11.89</text>
+<text x="1470.0" y="370.0" class="k" text-anchor="start">HESAP</text>
+<text x="1014.0" y="392.0" class="t" text-anchor="start">Süzülme hızı / stall hızı</text>
+<text x="1330.0" y="392.0" class="tk" text-anchor="start">11.2 / 9.0 m/s</text>
+<text x="1470.0" y="392.0" class="k" text-anchor="start">HESAP</text>
+<text x="1014.0" y="414.0" class="t" text-anchor="start">Batış hızı</text>
+<text x="1330.0" y="414.0" class="tk" text-anchor="start">0.94 m/s</text>
+<text x="1470.0" y="414.0" class="k" text-anchor="start">HESAP</text>
+<text x="1014.0" y="436.0" class="t" text-anchor="start">Ağırlık merkezi x (AM)</text>
+<text x="1330.0" y="436.0" class="tk" text-anchor="start">1.01 m</text>
+<text x="1470.0" y="436.0" class="k" text-anchor="start">HESAP</text>
+<text x="1014.0" y="458.0" class="t" text-anchor="start">Nötr nokta x (NN)</text>
+<text x="1330.0" y="458.0" class="tk" text-anchor="start">1.12 m</text>
+<text x="1470.0" y="458.0" class="k" text-anchor="start">HESAP</text>
+<text x="1014.0" y="480.0" class="t" text-anchor="start">Statik kararlılık payı</text>
+<text x="1330.0" y="480.0" class="tk" text-anchor="start">7 % MAC</text>
+<text x="1470.0" y="480.0" class="k" text-anchor="start">HESAP</text>
+<text x="1014.0" y="504.0" class="k" text-anchor="start">x: kök hücum kenarından geriye, z: kanat düzleminden yukarı.</text>
+<text x="40.0" y="580.0" class="b" text-anchor="start">ÖN GÖRÜNÜŞ</text>
+<polyline points="400.0,760.0 767.5,747.2" class="kiris"/>
+<line x1="400.0" y1="683.0" x2="602.1" y2="752.9" class="gergi"/>
+<line x1="400.0" y1="844.0" x2="602.1" y2="752.9" class="gergi"/>
+<polyline points="400.0,760.0 32.5,747.2" class="kiris"/>
+<line x1="400.0" y1="683.0" x2="197.9" y2="752.9" class="gergi"/>
+<line x1="400.0" y1="844.0" x2="197.9" y2="752.9" class="gergi"/>
+<line x1="400.0" y1="844.0" x2="400.0" y2="683.0" class="kiris"/>
+<ellipse cx="400.0" cy="816.0" rx="15.4" ry="11.2" class="pilot"/>
+<circle cx="400.0" cy="812.5" r="7.7" class="pilot"/>
+<circle cx="400.0" cy="797.5" r="7" fill="none" stroke="#b00020" stroke-width="2"/>
+<line x1="390.0" y1="797.5" x2="410.0" y2="797.5" class="ince"/>
+<line x1="400.0" y1="787.5" x2="400.0" y2="807.5" class="ince"/>
+<text x="411.0" y="788.5" class="tk" text-anchor="start">AM</text>
+<line x1="32.5" y1="649.0" x2="767.5" y2="649.0" class="olcu"/>
+<line x1="32.5" y1="643.0" x2="32.5" y2="655.0" class="olcu"/>
+<line x1="767.5" y1="643.0" x2="767.5" y2="655.0" class="olcu"/>
+<text x="400.0" y="642.0" class="to" text-anchor="middle">b = 10.50</text>
+<line x1="797.5" y1="747.2" x2="797.5" y2="760.0" class="olcu"/>
+<line x1="791.5" y1="747.2" x2="803.5" y2="747.2" class="olcu"/>
+<line x1="791.5" y1="760.0" x2="803.5" y2="760.0" class="olcu"/>
+<text x="789.5" y="753.6" class="to" text-anchor="middle" transform="rotate(-90 789.5 753.6)">0.18</text>
+<text x="602.1" y="707.5" class="k" text-anchor="start">gergi telleri (çelik)</text>
+<text x="407.0" y="699.0" class="k" text-anchor="start">direk</text>
+<text x="32.5" y="795.0" class="k" text-anchor="start">dihedral 2°</text>
+<text x="900.0" y="580.0" class="b" text-anchor="start">YAN GÖRÜNÜŞ (kök kesiti)</text>
+<polyline points="960.0,760.0 964.7,759.1 969.3,758.3 974.0,757.5 978.7,756.8 983.3,756.1 988.0,755.5 992.7,755.0 997.3,754.5 1002.0,754.1 1006.7,753.8 1011.3,753.5 1016.0,753.3 1020.7,753.1 1025.3,753.0 1030.0,753.0 1034.7,753.0 1039.3,753.1 1044.0,753.3 1048.7,753.5 1053.3,753.8 1058.0,754.1 1062.7,754.5 1067.3,755.0 1072.0,755.5 1076.7,756.1 1081.3,756.8 1086.0,757.5 1090.7,758.3 1095.3,759.1 1100.0,760.0" class="kiris"/>
+<line x1="988.0" y1="758.6" x2="1268.0" y2="756.5" class="kiris"/>
+<polyline points="1198.0,756.5 1268.0,754.4" class="g"/>
+<line x1="1030.0" y1="844.0" x2="1030.0" y2="683.0" class="kiris"/>
+<line x1="1030.0" y1="683.0" x2="1233.0" y2="756.5" class="gergi"/>
+<circle cx="981.0" cy="812.5" r="7.7" class="pilot"/>
+<rect x="991.5" y="806.2" width="112.0" height="19.6" rx="10" class="pilot"/>
+<circle cx="1030.7" cy="797.5" r="7" fill="none" stroke="#b00020" stroke-width="2"/>
+<line x1="1020.7" y1="797.5" x2="1040.7" y2="797.5" class="ince"/>
+<line x1="1030.7" y1="787.5" x2="1030.7" y2="807.5" class="ince"/>
+<text x="1041.7" y="788.5" class="tk" text-anchor="start">AM</text>
+<circle cx="1038.4" cy="739.0" r="7" fill="none" stroke="#0b6e4f" stroke-width="2"/>
+<line x1="1028.4" y1="739.0" x2="1048.4" y2="739.0" class="ince"/>
+<line x1="1038.4" y1="729.0" x2="1038.4" y2="749.0" class="ince"/>
+<text x="1049.4" y="730.0" class="tk" text-anchor="start">NN</text>
+<line x1="960.0" y1="649.0" x2="1100.0" y2="649.0" class="olcu"/>
+<line x1="960.0" y1="643.0" x2="960.0" y2="655.0" class="olcu"/>
+<line x1="1100.0" y1="643.0" x2="1100.0" y2="655.0" class="olcu"/>
+<text x="1030.0" y="642.0" class="to" text-anchor="middle">kök veteri 2.00</text>
+<line x1="960.0" y1="873.4" x2="1268.0" y2="873.4" class="olcu"/>
+<line x1="960.0" y1="867.4" x2="960.0" y2="879.4" class="olcu"/>
+<line x1="1268.0" y1="867.4" x2="1268.0" y2="879.4" class="olcu"/>
+<text x="1114.0" y="890.4" class="to" text-anchor="middle">toplam boy 4.40</text>
+<text x="1121.0" y="777.5" class="k" text-anchor="start">kuyruk kirişi</text>
+<text x="1205.0" y="791.5" class="k" text-anchor="start">yatay kuyruk 1.00 m²</text>
+<text x="921.5" y="781.0" class="k" text-anchor="start">uçuş yönü ←</text>
+<text x="40.0" y="1096.0" class="k" text-anchor="start">AM: ağırlık merkezi · NN: nötr nokta (kaba tahmin) · Kaynak: hesaplamalar/parametreler.json → aerodinamik.py → cizim_olustur.py · Ölçek ≈ 70 px/m</text>
+</svg>

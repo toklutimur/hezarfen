@@ -1,0 +1,437 @@
+{
+ "rota": {
+  "yon_dogancilar_derece": 102.94640013554307,
+  "senaryolar": [
+   {
+    "ad": "N: kulah ucu -> Dogancilar (nominal)",
+    "h0": 97.59,
+    "h1": 46.0,
+    "mesafe": 3359.8413004325103
+   },
+   {
+    "ad": "K: en ust kat -> Dogancilar (kotumser)",
+    "h0": 75.03999999999999,
+    "h1": 46.0,
+    "mesafe": 3359.8413004325103
+   },
+   {
+    "ad": "S: kulah ucu -> Uskudar kiyisi",
+    "h0": 97.59,
+    "h1": 2.0,
+    "mesafe": 3422.9600777383885
+   },
+   {
+    "ad": "I: ikincil kaynak iddiasi (en iyimser)",
+    "h0": 127.9,
+    "h1": 46.0,
+    "mesafe": 3359.8413004325103
+   }
+  ]
+ },
+ "tasarimlar": {
+  "v1": {
+   "kod": "v1",
+   "geo": {
+    "S": 11.92,
+    "b": 7.0,
+    "AR": 4.110738255033557,
+    "MAC": 1.8100111856823262,
+    "x_ac": 0.5223888422818792
+   },
+   "kutle": {
+    "ana_kirisler": 9.408546398725832,
+    "nervurler": 1.8957940868087608,
+    "kuyruk_kirisi": 2.2244046783742535,
+    "direk": 0.865194616798629,
+    "kaplama": 3.8639999999999994,
+    "baglanti_kosum": 3.0,
+    "toplam": 21.257939780707474
+   },
+   "m_pilot": 65.0,
+   "m_toplam": 86.25793978070747,
+   "perf": {
+    "W": 845.9014251504749,
+    "WS": 70.96488466027473,
+    "LD_max": 4.75394193590718,
+    "CL_opt": 0.9507883871814361,
+    "CL": 0.9,
+    "CD": 0.18960191291783487,
+    "LD": 4.7467875516109395,
+    "gamma_deg": 11.896474655360997,
+    "V": 11.22361274273102,
+    "V_stall": 10.76387644763913,
+    "batis": 2.31368018340251,
+    "V_yatay": 10.98254829298395,
+    "L": 827.7328758367765,
+    "D": 174.37748515959282,
+    "stall_sinirli": true
+   },
+   "yapi": {
+    "n": 2.0,
+    "M_ankastre": 740.1637470066655,
+    "sigma_ankastre_1g": 41367605.037837654,
+    "GK_ankastre_1g": 2.5043750999179264,
+    "GK_ankastre_n": 1.2521875499589632,
+    "M_gergili": 185.04093675166638,
+    "sigma_gergili_1g": 21980309.0908044,
+    "GK_gergili_1g": 4.713309515894919,
+    "GK_gergili_n": 2.3566547579474597
+   },
+   "denge": {
+    "x_cg": 0.48169864031650833,
+    "z_cg": -0.41445460082731855,
+    "x_np": 0.6181315734651592,
+    "x_ac": 0.5223888422818792,
+    "statik_pay_MAC": 0.07537684530784781,
+    "kuyruk_kolu": 2.3776111577181207
+   },
+   "duyarlilik": [
+    {
+     "parametre": "CD0 (parazit surukleme)",
+     "dusuk": 0.06,
+     "yuksek": 0.14,
+     "menzil_dusuk_m": 316.6239595551269,
+     "menzil_yuksek_m": 202.22392492268023,
+     "salinim_m": 114.40003463244665,
+     "nominal_menzil_m": 244.8867697876084
+    },
+    {
+     "parametre": "kalkis noktasi (ust kat / kulah ucu)",
+     "dusuk": 29.039999999999992,
+     "yuksek": 51.59,
+     "menzil_dusuk_m": 137.84671049878165,
+     "menzil_yuksek_m": 244.8867697876084,
+     "salinim_m": 107.04005928882674,
+     "nominal_menzil_m": 244.8867697876084
+    },
+    {
+     "parametre": "kalkis kotu (zemin 35-54 m)",
+     "dusuk": 51.59,
+     "yuksek": 70.59,
+     "menzil_dusuk_m": 244.8867697876084,
+     "menzil_yuksek_m": 335.07573326821625,
+     "salinim_m": 90.18896348060787,
+     "nominal_menzil_m": 244.8867697876084
+    },
+    {
+     "parametre": "Oswald e",
+     "dusuk": 0.55,
+     "yuksek": 0.85,
+     "menzil_dusuk_m": 217.396088420064,
+     "menzil_yuksek_m": 267.1675619502038,
+     "salinim_m": 49.77147353013979,
+     "nominal_menzil_m": 244.8867697876084
+    },
+    {
+     "parametre": "inis kotu (44-54 m)",
+     "dusuk": 43.59,
+     "yuksek": 53.59,
+     "menzil_dusuk_m": 206.91246937472087,
+     "menzil_yuksek_m": 254.38034489083026,
+     "salinim_m": 47.46787551610939,
+     "nominal_menzil_m": 244.8867697876084
+    },
+    {
+     "parametre": "CLmax",
+     "dusuk": 0.8,
+     "yuksek": 1.3,
+     "menzil_dusuk_m": 236.07198866659581,
+     "menzil_yuksek_m": 245.25586447345145,
+     "salinim_m": 9.183875806855639,
+     "nominal_menzil_m": 244.8867697876084
+    },
+    {
+     "parametre": "pilot kutlesi",
+     "dusuk": 76.25793978070747,
+     "yuksek": 101.25793978070747,
+     "menzil_dusuk_m": 244.8867697876084,
+     "menzil_yuksek_m": 244.8867697876084,
+     "salinim_m": 0.0,
+     "nominal_menzil_m": 244.8867697876084
+    },
+    {
+     "parametre": "yapi kutlesi (-%30/+%50)",
+     "dusuk": 79.88055784649524,
+     "yuksek": 96.8869096710612,
+     "menzil_dusuk_m": 244.8867697876084,
+     "menzil_yuksek_m": 244.8867697876084,
+     "salinim_m": 0.0,
+     "nominal_menzil_m": 244.8867697876084
+    },
+    {
+     "parametre": "hava yogunlugu",
+     "dusuk": 1.15,
+     "yuksek": 1.29,
+     "menzil_dusuk_m": 244.8867697876084,
+     "menzil_yuksek_m": 244.8867697876084,
+     "salinim_m": 0.0,
+     "nominal_menzil_m": 244.8867697876084
+    }
+   ]
+  },
+  "v2a": {
+   "kod": "v2a",
+   "geo": {
+    "S": 16.205000000000002,
+    "b": 10.0,
+    "AR": 6.170934896636839,
+    "MAC": 1.6995166100997632,
+    "x_ac": 0.5471073742672015
+   },
+   "kutle": {
+    "ana_kirisler": 22.430971546631124,
+    "nervurler": 2.577293890665769,
+    "kuyruk_kirisi": 3.418052807105695,
+    "direk": 1.570168008264179,
+    "kaplama": 5.2815,
+    "baglanti_kosum": 4.5,
+    "toplam": 39.777986252666764
+   },
+   "m_pilot": 65.0,
+   "m_toplam": 104.77798625266676,
+   "perf": {
+    "W": 1027.5210388847145,
+    "WS": 63.407654358822235,
+    "LD_max": 7.206129038829027,
+    "CL_opt": 1.008858065436064,
+    "CL": 0.9900000000000001,
+    "CD": 0.13740751056888967,
+    "LD": 7.204846342832626,
+    "gamma_deg": 7.901911155951161,
+    "V": 10.1772046889416,
+    "V_stall": 9.701110573443522,
+    "batis": 1.3991375263353458,
+    "V_yatay": 10.080570889737103,
+    "L": 1017.7646013574365,
+    "D": 141.26111133097345,
+    "stall_sinirli": true
+   },
+   "yapi": {
+    "n": 2.0,
+    "M_ankastre": 1284.401298605893,
+    "sigma_ankastre_1g": 30284268.975818876,
+    "GK_ankastre_1g": 3.420917971727224,
+    "GK_ankastre_n": 1.710458985863612,
+    "M_gergili": 321.1003246514733,
+    "sigma_gergili_1g": 17946233.467151925,
+    "GK_gergili_1g": 5.772799077289691,
+    "GK_gergili_n": 2.8863995386448456
+   },
+   "denge": {
+    "x_cg": 0.522853141601435,
+    "z_cg": -0.2791616927000784,
+    "x_np": 0.6681826496768256,
+    "x_ac": 0.5471073742672015,
+    "statik_pay_MAC": 0.08551226108161403,
+    "kuyruk_kolu": 2.802892625732799
+   },
+   "duyarlilik": [
+    {
+     "parametre": "kalkis noktasi (ust kat / kulah ucu)",
+     "dusuk": 29.039999999999992,
+     "yuksek": 51.59,
+     "menzil_dusuk_m": 209.22873779585942,
+     "menzil_yuksek_m": 371.6980228267352,
+     "salinim_m": 162.4692850308758,
+     "nominal_menzil_m": 371.6980228267352
+    },
+    {
+     "parametre": "kalkis kotu (zemin 35-54 m)",
+     "dusuk": 51.59,
+     "yuksek": 70.59,
+     "menzil_dusuk_m": 371.6980228267352,
+     "menzil_yuksek_m": 508.5901033405551,
+     "salinim_m": 136.8920805138199,
+     "nominal_menzil_m": 371.6980228267352
+    },
+    {
+     "parametre": "CD0 (parazit surukleme)",
+     "dusuk": 0.05,
+     "yuksek": 0.1,
+     "menzil_dusuk_m": 439.8773301243202,
+     "menzil_yuksek_m": 305.08846243778635,
+     "salinim_m": 134.78886768653388,
+     "nominal_menzil_m": 371.6980228267352
+    },
+    {
+     "parametre": "inis kotu (44-54 m)",
+     "dusuk": 43.59,
+     "yuksek": 53.59,
+     "menzil_dusuk_m": 314.0592520840742,
+     "menzil_yuksek_m": 386.10771551240043,
+     "salinim_m": 72.04846342832622,
+     "nominal_menzil_m": 371.6980228267352
+    },
+    {
+     "parametre": "Oswald e",
+     "dusuk": 0.6,
+     "yuksek": 0.85,
+     "menzil_dusuk_m": 332.5160065382891,
+     "menzil_yuksek_m": 394.46399830281416,
+     "salinim_m": 61.94799176452506,
+     "nominal_menzil_m": 371.6980228267352
+    },
+    {
+     "parametre": "CLmax",
+     "dusuk": 0.9,
+     "yuksek": 1.3,
+     "menzil_dusuk_m": 362.9815410550741,
+     "menzil_yuksek_m": 371.7641971131896,
+     "salinim_m": 8.782656058115492,
+     "nominal_menzil_m": 371.6980228267352
+    },
+    {
+     "parametre": "pilot kutlesi",
+     "dusuk": 94.77798625266676,
+     "yuksek": 119.77798625266676,
+     "menzil_dusuk_m": 371.6980228267352,
+     "menzil_yuksek_m": 371.6980228267352,
+     "salinim_m": 0.0,
+     "nominal_menzil_m": 371.6980228267352
+    },
+    {
+     "parametre": "yapi kutlesi (-%30/+%50)",
+     "dusuk": 92.84459037686673,
+     "yuksek": 124.66697937900014,
+     "menzil_dusuk_m": 371.6980228267352,
+     "menzil_yuksek_m": 371.6980228267352,
+     "salinim_m": 0.0,
+     "nominal_menzil_m": 371.6980228267352
+    },
+    {
+     "parametre": "hava yogunlugu",
+     "dusuk": 1.15,
+     "yuksek": 1.29,
+     "menzil_dusuk_m": 371.6980228267352,
+     "menzil_yuksek_m": 371.6980228267352,
+     "salinim_m": 0.0,
+     "nominal_menzil_m": 371.6980228267352
+    }
+   ]
+  },
+  "v2b": {
+   "kod": "v2b",
+   "geo": {
+    "S": 14.884999999999998,
+    "b": 10.5,
+    "AR": 7.406785354383609,
+    "MAC": 1.5164259321464564,
+    "x_ac": 1.0319868995633188
+   },
+   "kutle": {
+    "toplam": 32.0
+   },
+   "m_pilot": 65.0,
+   "m_toplam": 97.0,
+   "perf": {
+    "W": 951.24505,
+    "WS": 63.90628485052066,
+    "LD_max": 11.88598727422963,
+    "CL_opt": 0.8320191091960741,
+    "CL": 0.8320191091960741,
+    "CD": 0.07,
+    "LD": 11.88598727422963,
+    "gamma_deg": 4.809122179549686,
+    "V": 11.178570702685642,
+    "V_stall": 8.958742682760395,
+    "batis": 0.9371721975549514,
+    "V_yatay": 11.139216813899969,
+    "L": 947.8962147238922,
+    "D": 79.74905179135223,
+    "stall_sinirli": false
+   },
+   "yapi": null,
+   "denge": {
+    "x_cg": 1.010089760327459,
+    "z_cg": -0.5360824742268041,
+    "x_np": 1.1199282196989144,
+    "x_ac": 1.0319868995633188,
+    "statik_pay_MAC": 0.07243245914159639,
+    "kuyruk_kolu": 2.618013100436681
+   },
+   "duyarlilik": [
+    {
+     "parametre": "kalkis noktasi (ust kat / kulah ucu)",
+     "dusuk": 29.039999999999992,
+     "yuksek": 51.59,
+     "menzil_dusuk_m": 345.16907044362836,
+     "menzil_yuksek_m": 613.1980834775067,
+     "salinim_m": 268.0290130338783,
+     "nominal_menzil_m": 613.1980834775067
+    },
+    {
+     "parametre": "kalkis kotu (zemin 35-54 m)",
+     "dusuk": 51.59,
+     "yuksek": 70.59,
+     "menzil_dusuk_m": 613.1980834775067,
+     "menzil_yuksek_m": 839.0318416878696,
+     "salinim_m": 225.83375821036293,
+     "nominal_menzil_m": 613.1980834775067
+    },
+    {
+     "parametre": "CD0 (parazit surukleme)",
+     "dusuk": 0.025,
+     "yuksek": 0.045,
+     "menzil_dusuk_m": 725.5457569393416,
+     "menzil_yuksek_m": 540.7898777676359,
+     "salinim_m": 184.75587917170571,
+     "nominal_menzil_m": 613.1980834775067
+    },
+    {
+     "parametre": "inis kotu (44-54 m)",
+     "dusuk": 43.59,
+     "yuksek": 53.59,
+     "menzil_dusuk_m": 518.1101852836696,
+     "menzil_yuksek_m": 636.9700580259658,
+     "salinim_m": 118.85987274229626,
+     "nominal_menzil_m": 613.1980834775067
+    },
+    {
+     "parametre": "Oswald e",
+     "dusuk": 0.75,
+     "yuksek": 0.95,
+     "menzil_dusuk_m": 575.9993026807107,
+     "menzil_yuksek_m": 648.2658270125837,
+     "salinim_m": 72.26652433187303,
+     "nominal_menzil_m": 613.1980834775067
+    },
+    {
+     "parametre": "CLmax",
+     "dusuk": 1.1,
+     "yuksek": 1.5,
+     "menzil_dusuk_m": 613.1980834775067,
+     "menzil_yuksek_m": 613.1980834775067,
+     "salinim_m": 0.0,
+     "nominal_menzil_m": 613.1980834775067
+    },
+    {
+     "parametre": "pilot kutlesi",
+     "dusuk": 87.0,
+     "yuksek": 112.0,
+     "menzil_dusuk_m": 613.1980834775067,
+     "menzil_yuksek_m": 613.1980834775067,
+     "salinim_m": 0.0,
+     "nominal_menzil_m": 613.1980834775067
+    },
+    {
+     "parametre": "yapi kutlesi (-%30/+%50)",
+     "dusuk": 87.4,
+     "yuksek": 113.0,
+     "menzil_dusuk_m": 613.1980834775067,
+     "menzil_yuksek_m": 613.1980834775067,
+     "salinim_m": 0.0,
+     "nominal_menzil_m": 613.1980834775067
+    },
+    {
+     "parametre": "hava yogunlugu",
+     "dusuk": 1.15,
+     "yuksek": 1.29,
+     "menzil_dusuk_m": 613.1980834775067,
+     "menzil_yuksek_m": 613.1980834775067,
+     "salinim_m": 0.0,
+     "nominal_menzil_m": 613.1980834775067
+    }
+   ]
+  }
+ }
+}

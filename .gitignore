@@ -1,0 +1,4 @@
+# Ham render kareleri (~2 GB); birlestirilmis mp4'ler renderlar/animasyon/ altinda
+Hezarfen_Flight_Challenge/renderlar/animasyon/*/
+*.blend1
+__pycache__/

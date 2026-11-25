@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760">
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#22201c;font-size:13px}.h{font-size:22px;font-weight:bold}.k{font-size:11.5px;fill:#555}</style>
+<rect width="1600" height="760" fill="#fbf7ee"/>
+<text x="40" y="38" class="h">Galata Kulesi → Doğancılar: süzülme profili (nominal senaryo, sakin hava)</text>
+<text x="40" y="58" class="k">Basitleştirilmiş nokta-kütle modeli; CFD değildir. Düşey eksen yataya göre yaklaşık 5 kat abartılıdır. Arazi kesiti ve kıyı konumu şematiktir (yalnızca kule zemini, deniz ve iniş kotu veridir).</text>
+<rect x="90" y="670" width="1470" height="14" fill="#9ec5e6"/>
+<polygon points="90,670 90,485 106,485 233,670" fill="#cdbf9f"/>
+<polygon points="1274,670 1462,427 1560,427 1560,670" fill="#cdbf9f"/>
+<rect x="85" y="155" width="10" height="330" fill="#7d705c"/>
+<text x="100" y="149">kalkış 97.6 m</text>
+<circle cx="1462" cy="427" r="6" fill="#0b6e4f"/>
+<text x="1452" y="415" text-anchor="end" dy="-14">hedef: Doğancılar 46 m, 3360 m</text>
+<line x1="90" y1="684" x2="90" y2="690" stroke="#333"/><text x="90" y="706" text-anchor="middle">0</text>
+<line x1="294" y1="684" x2="294" y2="690" stroke="#333"/><text x="294" y="706" text-anchor="middle">500</text>
+<line x1="498" y1="684" x2="498" y2="690" stroke="#333"/><text x="498" y="706" text-anchor="middle">1000</text>
+<line x1="702" y1="684" x2="702" y2="690" stroke="#333"/><text x="702" y="706" text-anchor="middle">1500</text>
+<line x1="907" y1="684" x2="907" y2="690" stroke="#333"/><text x="907" y="706" text-anchor="middle">2000</text>
+<line x1="1111" y1="684" x2="1111" y2="690" stroke="#333"/><text x="1111" y="706" text-anchor="middle">2500</text>
+<line x1="1315" y1="684" x2="1315" y2="690" stroke="#333"/><text x="1315" y="706" text-anchor="middle">3000</text>
+<line x1="1519" y1="684" x2="1519" y2="690" stroke="#333"/><text x="1519" y="706" text-anchor="middle">3500</text>
+<line x1="84" y1="670" x2="90" y2="670" stroke="#333"/><text x="80" y="674" text-anchor="end">0</text>
+<line x1="84" y1="565" x2="90" y2="565" stroke="#333"/><text x="80" y="569" text-anchor="end">20</text>
+<line x1="84" y1="459" x2="90" y2="459" stroke="#333"/><text x="80" y="463" text-anchor="end">40</text>
+<line x1="84" y1="354" x2="90" y2="354" stroke="#333"/><text x="80" y="358" text-anchor="end">60</text>
+<line x1="84" y1="248" x2="90" y2="248" stroke="#333"/><text x="80" y="252" text-anchor="end">80</text>
+<line x1="84" y1="143" x2="90" y2="143" stroke="#333"/><text x="80" y="147" text-anchor="end">100</text>
+<text x="825" y="736" text-anchor="middle">rota boyunca yatay mesafe (m)</text>
+<text x="24" y="380" text-anchor="middle" transform="rotate(-90 24 380)">deniz seviyesinden irtifa (m)</text>
+<line x1="90" y1="155" x2="1462" y2="427" stroke="#0b6e4f" stroke-width="2" stroke-dasharray="10 6"/>
+<text x="784" y="269" fill="#0b6e4f">gereken yol: süzülme oranı 65:1</text>
+<line x1="90" y1="155" x2="279" y2="670" stroke="#b00020" stroke-width="2.5"/>
+<circle cx="279" cy="670" r="5" fill="#b00020"/>
+<text x="702" y="491" fill="#b00020">v1: L/D 4.7 → hedef kotunda 245 m, denize iniş 463 m (42 s)</text>
+<line x1="90" y1="155" x2="377" y2="670" stroke="#c77700" stroke-width="2.5"/>
+<circle cx="377" cy="670" r="5" fill="#c77700"/>
+<text x="702" y="513" fill="#c77700">v2a: L/D 7.2 → hedef kotunda 372 m, denize iniş 703 m (70 s)</text>
+<line x1="90" y1="155" x2="564" y2="670" stroke="#1d4e89" stroke-width="2.5"/>
+<circle cx="564" cy="670" r="5" fill="#1d4e89"/>
+<text x="702" y="535" fill="#1d4e89">v2b: L/D 11.9 → hedef kotunda 613 m, denize iniş 1160 m (104 s)</text>
+</svg>

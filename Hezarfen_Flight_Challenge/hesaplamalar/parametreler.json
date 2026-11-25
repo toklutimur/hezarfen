@@ -1,0 +1,160 @@
+{
+  "_aciklama": "Tek dogruluk kaynagi: SVG cizimi, aerodinamik hesap ve Blender modeli bu dosyayi okur. 'tur' alani: OLCUM | KAYNAK | HESAP | VARSAYIM.",
+  "sabitler": {
+    "g": {"deger": 9.80665, "birim": "m/s^2", "tur": "KAYNAK", "not": "standart yercekimi ivmesi"},
+    "rho": {"deger": 1.225, "dusuk": 1.15, "yuksek": 1.29, "birim": "kg/m^3", "tur": "KAYNAK", "not": "ISA deniz seviyesi 15 C; aralik yaklasik 35 C / 0 C sicakliklarina karsilik gelir (ideal gaz, 101325 Pa)"}
+  },
+  "cografya": {
+    "galata_kulesi": {"lat": 41.0256406, "lon": 28.9742134, "tur": "KAYNAK", "kaynak": "OpenStreetMap Nominatim"},
+    "dogancilar_parki": {"lat": 41.0188645, "lon": 29.0132431, "tur": "KAYNAK", "kaynak": "OpenStreetMap Nominatim"},
+    "uskudar_iskelesi": {"lat": 41.0276884, "lon": 29.0149279, "tur": "KAYNAK", "kaynak": "OpenStreetMap Nominatim"},
+    "kule_zemin_kotu_m": {"deger": 35.0, "dusuk": 35.0, "yuksek": 54.0, "tur": "KAYNAK", "not": "35 m: Vikipedi (TR) bilgi kutusu 'Rakim'. 46-54 m: EU-DEM 25 m / SRTM 30 m (sehir icinde bina catilarini da gorur, yukari yanli). Ust sinir temkinli alinmistir."},
+    "kule_mimari_yukseklik_m": {"deger": 62.59, "tur": "KAYNAK", "not": "Vikipedi (EN/TR) bilgi kutusu; BUGUNKU betonarme kulahin ucu. Donemindeki cati bicimi/yuksekligi farkli olabilir."},
+    "kule_en_ust_kat_m": {"deger": 40.04, "tur": "KAYNAK", "not": "Vikipedi (EN/TR) bilgi kutusu 'top floor'"},
+    "dogancilar_kotu_m": {"deger": 46.0, "dusuk": 44.0, "yuksek": 54.0, "tur": "KAYNAK", "not": "SRTM30: 45 m, EU-DEM25: 46.8 m, Vikipedi (TR): ~45 m; yakin noktalar 44-54 m"},
+    "kiyi_kotu_m": {"deger": 2.0, "tur": "VARSAYIM", "not": "deniz kiyisinda inis icin temsili kot"},
+    "ikincil_kaynak_iddiasi": {"kule_tepe_deniz_seviyesi_m": 127.9, "mesafe_m": 3358, "tur": "KAYNAK", "not": "Vikipedi (TR) 'Aerodinamik gorusler' bolumu; ayni bolumde yukseklik farki hem ~61 m hem de (127.9-45=) 82.9 m cikacak bicimde verilmis, yani kaynak kendi icinde tutarsiz. Yalnizca 'en iyimser' senaryo olarak kullanilir."},
+    "lodos_yonu_derece": {"deger": 225.0, "tur": "KAYNAK", "not": "Lodos = guneybatidan esen ruzgar (Vikipedi TR). 225 derece 'nereden estigi'dir."},
+    "ruzgar_hizlari_ms": {"degerler": [0.0, 8.0, 15.0], "tur": "VARSAYIM", "not": "sakin / orta / kuvvetli lodos icin temsili degerler; o gune ait olcum yoktur"}
+  },
+  "malzemeler": {
+    "disbudak": {"yogunluk": 680.0, "MOR_MPa": 103.6, "E_GPa": 12.31, "tur": "KAYNAK", "kaynak": "The Wood Database - European Ash (Fraxinus excelsior)", "not": "kusursuz kucuk numune degerleri; budak, nem ve el isciligi gercek dayanimi dusurur"},
+    "sogut": {"yogunluk": 450.0, "tur": "VARSAYIM", "not": "sogut cubugu icin tipik mertebe; Lilienthal planorlerinde sogut kullanilmistir"},
+    "keten_bez": {"alan_yogunlugu": 0.30, "dusuk": 0.20, "yuksek": 0.45, "birim": "kg/m^2", "tur": "VARSAYIM", "not": "balmumu/yagla sizdirmazlastirilmis siki dokuma keten icin mertebe tahmini"}
+  },
+  "pilot": {
+    "kutle_kg": {"deger": 65.0, "dusuk": 55.0, "yuksek": 80.0, "tur": "VARSAYIM", "not": "donem yetiskin erkegi + giysi; tarihsel kayit yok"}
+  },
+  "tasarimlar": {
+    "v1": {
+      "ad": "v1 - 'kartal kanadi' sabit kanat rekonstruksiyonu",
+      "teknoloji": "donem",
+      "tur": "VARSAYIM",
+      "not": "Kaynaklarda hicbir olcu yoktur. Geometri, Evliya Celebi'nin 'kartal kanatlari' ifadesinden ve Lilienthal sinifi (aciklik 6.70 m, alan 13.6 m^2, 20 kg) belgelenmis ilk planorlerden turetilmis bir muhendislik varsayimidir.",
+      "kanat": {
+        "yari_aciklik_m": 3.5,
+        "istasyonlar": [
+          {"y": 0.0,   "x_hucum": 0.00,  "veter": 2.00},
+          {"y": 0.875, "x_hucum": -0.05, "veter": 2.10},
+          {"y": 1.75,  "x_hucum": 0.00,  "veter": 1.90},
+          {"y": 2.625, "x_hucum": 0.20,  "veter": 1.50},
+          {"y": 3.2,   "x_hucum": 0.50,  "veter": 1.00},
+          {"y": 3.5,   "x_hucum": 0.90,  "veter": 0.40}
+        ],
+        "kambur_orani": 0.07,
+        "dihedral_derece": 5.0,
+        "profil": "ince, tek yuzeyli dairesel yay (kus kanadi benzeri)"
+      },
+      "kuyruk": {"alan_m2": 0.96, "aciklik_m": 1.6, "veter_m": 1.2, "x_hucum_m": 2.6, "z_m": 0.05},
+      "iskelet": {
+        "ana_kiris_adet": 2,
+        "kiris_x_veter_orani": [0.12, 0.55],
+        "kiris_cap_kok_m": 0.045,
+        "kiris_cap_uc_m": 0.025,
+        "kiris_malzeme": "disbudak",
+        "nervur_adet_yarim_kanat": 7,
+        "nervur_cap_m": 0.015,
+        "nervur_malzeme": "sogut",
+        "kuyruk_kirisi": {"uzunluk_m": 3.4, "cap_m": 0.035, "malzeme": "disbudak"},
+        "direk": {"yukseklik_ust_m": 0.9, "yukseklik_alt_m": 0.9, "cap_m": 0.03, "malzeme": "disbudak"},
+        "gergi_y_orani": 0.5,
+        "baglanti_ve_kosum_kg": {"deger": 3.0, "tur": "VARSAYIM", "not": "kendir ip baglar, gergi halatlari, deri kol halkalari"}
+      },
+      "pilot_konumu": {"x_m": 0.35, "_not": "ilk deneme x=0.62 m statik payi -%4 MAC (kararsiz) verdi; pilot one alinarak pozitif pay saglandi", "z_m": -0.55, "durus": "dik, kollar deri halkalarda, govde kanat ortasindaki bosluktan sarkar"},
+      "aero": {
+        "CD0": {"deger": 0.10, "dusuk": 0.06, "yuksek": 0.14, "tur": "VARSAYIM", "not": "dik duran pilot + acik iskelet + gergi ipleri. CD0=0.10, e=0.70 ile Lilienthal geometrisi (AR 3.3) icin L/D ~ 4.3 cikar; belgelenen ~4 ile uyumlu."},
+        "oswald_e": {"deger": 0.70, "dusuk": 0.55, "yuksek": 0.85, "tur": "VARSAYIM"},
+        "CLmax": {"deger": 1.0, "dusuk": 0.8, "yuksek": 1.3, "tur": "VARSAYIM", "not": "ince kamburlu, dusuk Reynolds, sizdiran kumas"}
+      },
+      "yuk_faktoru_tasarim": {"deger": 2.0, "tur": "VARSAYIM", "not": "turbulansli lodosta saganak / cekis"}
+    },
+    "v2a": {
+      "ad": "v2a - donem malzemesiyle iyilestirilmis kanat (buyuk aciklik, yatay pilot)",
+      "teknoloji": "donem",
+      "tur": "VARSAYIM",
+      "not": "Malzemeler v1 ile ayni (disbudak, sogut, mumlu keten, kendir). Degisenler: aciklik 7 -> 10 m, aciklik orani 4.1 -> ~6, pilot dik yerine yatay (yuzustu) asili, kuyruk buyutuldu, kirisler kalinlastirildi. Bu tercihlerin hepsi MODERN aerodinamik bilgiyle yapilmistir; donemin bir yapimcisinin bunlari bilmesi beklenmez.",
+      "kanat": {
+        "yari_aciklik_m": 5.0,
+        "istasyonlar": [
+          {"y": 0.0,  "x_hucum": 0.00, "veter": 1.90},
+          {"y": 1.25, "x_hucum": 0.00, "veter": 1.90},
+          {"y": 2.5,  "x_hucum": 0.05, "veter": 1.80},
+          {"y": 3.75, "x_hucum": 0.25, "veter": 1.50},
+          {"y": 4.6,  "x_hucum": 0.60, "veter": 1.00},
+          {"y": 5.0,  "x_hucum": 1.00, "veter": 0.45}
+        ],
+        "kambur_orani": 0.06,
+        "dihedral_derece": 5.0,
+        "profil": "ince, tek yuzeyli dairesel yay"
+      },
+      "kuyruk": {"alan_m2": 1.4, "aciklik_m": 2.0, "veter_m": 1.4, "x_hucum_m": 3.0, "z_m": 0.05},
+      "iskelet": {
+        "ana_kiris_adet": 2,
+        "kiris_x_veter_orani": [0.12, 0.55],
+        "kiris_cap_kok_m": 0.060,
+        "kiris_cap_uc_m": 0.030,
+        "kiris_malzeme": "disbudak",
+        "nervur_adet_yarim_kanat": 10,
+        "nervur_cap_m": 0.015,
+        "nervur_malzeme": "sogut",
+        "kuyruk_kirisi": {"uzunluk_m": 4.0, "cap_m": 0.040, "malzeme": "disbudak"},
+        "direk": {"yukseklik_ust_m": 1.2, "yukseklik_alt_m": 1.2, "cap_m": 0.035, "malzeme": "disbudak"},
+        "gergi_y_orani": 0.5,
+        "baglanti_ve_kosum_kg": {"deger": 4.5, "tur": "VARSAYIM", "not": "daha cok gergi halati + yatay asma kosumu"}
+      },
+      "pilot_konumu": {"x_m": 0.30, "z_m": -0.45, "yatay": true, "durus": "yatay (yuzustu), deri/kendir kosumla kanat altina asili"},
+      "aero": {
+        "CD0": {"deger": 0.07, "dusuk": 0.05, "yuksek": 0.10, "tur": "VARSAYIM", "not": "yatay pilot on alani ~yariya iner; acik iskelet ve halatlar surer"},
+        "oswald_e": {"deger": 0.75, "dusuk": 0.60, "yuksek": 0.85, "tur": "VARSAYIM"},
+        "CLmax": {"deger": 1.1, "dusuk": 0.9, "yuksek": 1.3, "tur": "VARSAYIM"}
+      },
+      "yuk_faktoru_tasarim": {"deger": 2.0, "tur": "VARSAYIM"}
+    },
+    "v2b": {
+      "ad": "v2b - MODERN karsilastirma (aluminyum boru + sentetik yelken bezi sinifi)",
+      "teknoloji": "modern",
+      "tur": "VARSAYIM",
+      "not": "TARIHSEL DEGILDIR. Yalnizca 'ayni kalkis irtifasindan modern bir yelkenkanat sinifi arac ne kadar gider' sorusuna ust sinir vermek icindir. Geometri temsili; kutle dogrudan varsayilmistir (boru et kalinligi modellenmedi), yapisal hesap yapilmamistir.",
+      "etiketler": {"kiris": "ana borular (alüminyum alaşım)", "nervur": "profil çıtaları", "kaplama": "sentetik yelken bezi", "gergi": "gergi telleri (çelik)"},
+      "alt_baslik": "MODERN KARŞILAŞTIRMA – tarihsel değildir. Aynı irtifadan modern yelkenkanat sınıfı bir aracın menzilini göstermek içindir. Ölçüler metre.",
+      "yapi_hesabi": false,
+      "yapi_kutlesi_kg": {"deger": 32.0, "tur": "VARSAYIM", "not": "modern yelkenkanatlar icin tipik mertebe; bu projede kaynakla dogrulanmadi"},
+      "kanat": {
+        "yari_aciklik_m": 5.25,
+        "istasyonlar": [
+          {"y": 0.0,  "x_hucum": 0.00, "veter": 2.00},
+          {"y": 1.3,  "x_hucum": 0.35, "veter": 1.75},
+          {"y": 2.6,  "x_hucum": 0.75, "veter": 1.45},
+          {"y": 3.9,  "x_hucum": 1.20, "veter": 1.15},
+          {"y": 5.0,  "x_hucum": 1.60, "veter": 0.80},
+          {"y": 5.25, "x_hucum": 1.75, "veter": 0.50}
+        ],
+        "kambur_orani": 0.05,
+        "dihedral_derece": 2.0,
+        "profil": "cift yuzeyli modern profil (temsili)"
+      },
+      "kuyruk": {"alan_m2": 1.0, "aciklik_m": 2.0, "veter_m": 1.0, "x_hucum_m": 3.4, "z_m": 0.05},
+      "iskelet": {
+        "ana_kiris_adet": 2,
+        "kiris_x_veter_orani": [0.05, 0.50],
+        "kiris_cap_kok_m": 0.052,
+        "kiris_cap_uc_m": 0.045,
+        "kiris_malzeme": "aluminyum_boru",
+        "nervur_adet_yarim_kanat": 10,
+        "nervur_cap_m": 0.010,
+        "nervur_malzeme": "aluminyum_boru",
+        "kuyruk_kirisi": {"uzunluk_m": 4.0, "cap_m": 0.045, "malzeme": "aluminyum_boru"},
+        "direk": {"yukseklik_ust_m": 1.1, "yukseklik_alt_m": 1.2, "cap_m": 0.030, "malzeme": "aluminyum_boru"},
+        "gergi_y_orani": 0.55,
+        "baglanti_ve_kosum_kg": {"deger": 0.0, "tur": "VARSAYIM", "not": "yapi_kutlesi_kg icinde"}
+      },
+      "pilot_konumu": {"x_m": 0.85, "z_m": -0.80, "yatay": true, "durus": "yatay, modern kosum"},
+      "aero": {
+        "CD0": {"deger": 0.035, "dusuk": 0.025, "yuksek": 0.045, "tur": "VARSAYIM", "not": "secilen degerler L/D ~12 verir; modern esnek kanatlar icin belgelenen ~17 (K12) degerinin altinda, temkinli"},
+        "oswald_e": {"deger": 0.85, "dusuk": 0.75, "yuksek": 0.95, "tur": "VARSAYIM"},
+        "CLmax": {"deger": 1.3, "dusuk": 1.1, "yuksek": 1.5, "tur": "VARSAYIM"}
+      },
+      "yuk_faktoru_tasarim": {"deger": 2.0, "tur": "VARSAYIM"}
+    }
+  }
+}
